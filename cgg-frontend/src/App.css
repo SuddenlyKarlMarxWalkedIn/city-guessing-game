@@ -1,13 +1,18 @@
 .App {
   color: #05615f;
+font-size: 12px;
+background-color: #d5f0ef;
+min-height: 100vh;
 }
 
 .App-header {
-  background-color: #d5f0ef;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   font-weight: bold;
   padding: 2%;
+}
+
+.StartButton {
+    padding: 2%;
 }
