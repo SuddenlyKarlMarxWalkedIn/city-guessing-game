@@ -10,6 +10,23 @@ function App() {
         Ashley and Dillon's City Guessing Game
       </header>
           <div className="StartButton"><Button>Start Game</Button></div>
+      
+      <header>High scores</header>
+      <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>Score</th>
+      </tr>
+      <tr>
+        <td>Row 1, Column 1</td>
+        <td>Row 1, Column 2</td>
+      </tr>
+        <tr>
+        <td>Row 2, Column 1</td>
+        <td>Row 2, Column 2</td>
+      </tr>
+      
+      </table>
       </div>
   );
 }
