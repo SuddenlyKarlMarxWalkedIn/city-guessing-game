@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import Button from 'react-bootstrap/Button'
+import { Map, GoogleApiWrapper } from 'google-maps-react';
 import './App.css';
 
 function App() {
@@ -10,6 +11,12 @@ function App() {
         Ashley and Dillon's City Guessing Game
       </header>
           <div className="StartButton"><Button>Start Game</Button></div>
+      <Map
+          google={this.props.google}
+          zoom={8}
+          style={mapStyles}
+          initialCenter={{ lat: 47.444, lng: -122.176}}
+        />
       
       <header>High scores</header>
       <table border="1">
